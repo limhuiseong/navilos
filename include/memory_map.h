@@ -1,3 +1,6 @@
+#ifndef _MEMORY_MAP_H_
+#define _MEMORY_MAP_H_
+
 #define INST_ADDR_START     0
 #define USRSYS_STACK_START  0x00100000
 #define SVC_STACK_START     0x00300000
@@ -25,3 +28,5 @@
 #define FIQ_STACK_TOP       (FIQ_STACK_START + FIQ_STACK_SIZE - 4)
 #define ABT_STACK_TOP       (ABT_STACK_START + ABT_STACK_SIZE - 4)
 #define UND_STACK_TOP       (UND_STACK_START + UND_STACK_SIZE - 4)
+
+#endif

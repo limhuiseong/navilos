@@ -1,3 +1,6 @@
+#ifndef _ARMV7AR_H
+#define _ARMV7AR_H
+
 #define ARM_MODE_BIT_USR 0x10
 #define ARM_MODE_BIT_FIQ 0x11
 #define ARM_MODE_BIT_IRQ 0x12
@@ -6,3 +9,5 @@
 #define ARM_MODE_BIT_UND 0x1B
 #define ARM_MODE_BIT_SYS 0x1F
 #define ARM_MODE_BIT_MON 0x16
+
+#endif
